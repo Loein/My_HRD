@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".My_game">
+
+    <TextView
+        android:id="@+id/test_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="你已经走了：0步！"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/refresh_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重玩"
+        android:onClick="refresh"/>
+
+    <Button
+        android:id="@+id/chess1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/img7" />
+
+    <Button
+        android:id="@+id/chess2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/img7" />
+
+    <Button
+        android:id="@+id/chess3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/img7" />
+
+    <Button
+        android:id="@+id/chess4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/img7" />
+
+    <Button
+        android:id="@+id/chess5"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:background="@drawable/img6" />
+
+    <Button
+        android:id="@+id/chess6"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:background="@drawable/img5" />
+
+    <Button
+        android:id="@+id/chess7"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:background="@drawable/img4" />
+
+    <Button
+        android:id="@+id/chess8"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:background="@drawable/img3" />
+
+    <Button
+        android:id="@+id/chess9"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:background="@drawable/img1" />
+
+    <Button
+        android:id="@+id/chess10"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/img2" />
+</RelativeLayout>
